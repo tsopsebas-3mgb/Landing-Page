@@ -1,0 +1,122 @@
+.container{
+    padding: 1rem ;
+    color: #1c1f4f;
+    background-image: url("/back.png");
+    width: 100%;
+}
+.heading{
+    position: relative;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+    z-index: 1;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    margin: 1rem 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.bar{
+    position: absolute;
+    width:5px;
+    top:-1em;
+    margin-left:.2em;
+    height: 7.5rem;
+    background-color: #b31cb9;
+    transform: rotate(20deg);
+}
+.p{
+    font-size: 1.5rem;
+    padding-left:0.9rem;
+}
+.h2{
+    font-size: clamp(2rem,3rem,60px);
+    font-weight: bold;
+    margin-left:-.1em ;
+    line-height: 1.4;
+}
+.description{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.activities,.domains{
+    display: flex;
+    justify-content: center;
+    margin: 0 6rem;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.effectifs{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    width: 100%;
+
+}
+.effectif{
+    gap:0;
+    justify-content: center;
+    align-items: center;
+}
+.fig{
+    font-size:5em;
+    font-weight: bold;
+    color:black;
+    font-family: Candara;
+    line-height: 1;
+}
+.fd{
+    color: rgba(14, 12, 12, 0.3);
+    font-size: 1.2rem ;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+}
+.footer{
+    margin: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+}
+.footer p{
+    font-size: 1.2rem;
+}
+.accroche{
+    padding: .5rem 2rem;
+    background-color: #1c1f4f;
+    color: white;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 10px #000;
+}
+
+
+
+
+
+
+@media (min-width: 750px){
+    .header{
+        flex-direction: row;
+    }
+    .container{
+        font-size:0.7rem;
+        box-shadow: none;
+    }
+}
+@media (max-width: 750px){
+    .header{
+        gap:1rem;
+    }
+}

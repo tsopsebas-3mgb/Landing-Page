@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    font-size:clamp(20px,1.2rem,1.8rem);
+    height: 3.5em;
+    background-color: #ffffff;
+    position:fixed;
+    top:0;
+    display:flex;
+    justify-content: space-between;
+    overflow:hidden;
+    z-index: 22;
+}
+.svg{
+    height:60%;
+}
+.logo{
+    width:10em;
+    margin-left: 2rem;
+}
+.navKeys,.logo{
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+.navKeys{
+    margin-right: 1rem;
+}

@@ -1,0 +1,34 @@
+.container{
+    background-image: url('/b.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-position: center;
+    flex-direction: column;
+    padding: 3.5rem 1.5rem 7rem 1.5rem;
+    gap:2rem;
+    font-size: .8rem;
+}
+.search{
+    font-size:3em;
+    font-weight: 300;
+}
+.what{
+    font-size:3.2em;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.line{
+    font-size: 1.8em;
+    font-weight: 400;
+    border-left:.7rem solid #ffffff;
+    padding: 0 1rem;
+}
+@media (min-width: 750px){
+    .container{
+        padding-right: 21rem;
+    }
+
+}

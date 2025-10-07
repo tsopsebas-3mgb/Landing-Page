@@ -1,0 +1,138 @@
+.container{
+    width:30em;
+    height:15em;
+    display:flex;
+    background-color: #1c1f4f;
+    padding: 2rem;
+    font-family: "Comic Sans MS";
+    margin-top: 1em;
+    font-size: 1rem;
+    justify-content: space-between;
+
+
+}
+/*.container *{*/
+/*    border:2px solid;*/
+/*}*/
+.bop{
+    display:flex;
+    padding:0 5rem;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+}
+.name{
+    font-size:2.5em;
+    color:white;
+}
+.count{
+    font-size:2.5em;
+    color:white;
+}
+.logo{
+    font-size: 4em;
+}
+.company{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: center;
+
+}.count{
+    width:50%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    font-size: 1em;
+
+}
+ .subCount{
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: 700;
+     background-color: #fcfcfc;
+     color:#1c1f4f;
+     width: 2em;
+     height: 2em;
+    font-size: 4em;
+ }
+ .super{
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     gap:2em;
+     overflow: hidden;
+ }
+ .navs{
+     display:flex;
+     gap:.3em;
+ }
+ .nav{
+     height:.4em;
+     width:1.3em;
+     background-color: rgba(94, 94, 154, 0.27);
+     border-radius: 10px;
+     transition: all ease-in-out 0.7s;
+ }
+ .keys{
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     gap:1.5em;
+     font-size: 1em;
+ }
+ .key{
+     width: 9em;
+     display: flex;
+     justify-content: space-between;
+ }
+ .icon:hover{
+    cursor: pointer;
+ }
+ .blue{
+     background-color: #b31cb9;
+     transition: all ease-in-out 0.7s;
+     transform: scale(1.2);
+ }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.in  {
+    animation: fadeIn 0.5s ease-in forwards;
+    animation-delay: 0.5s; /* starts after 500ms */
+}
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.d {
+    animation: fadeIn 0.5s ease-in forwards;
+    animation-delay: 0.5s; /* starts after 500ms */
+}
+@media (min-width: 750px){
+    .super{
+        flex-direction: row;
+        flex-wrap: wrap;justify-content: center;
+
+    }
+    .container{
+        font-size:0.7rem;
+    }
+}
